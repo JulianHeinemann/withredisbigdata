@@ -15,13 +15,37 @@ npm i
 ```
 
 - `cd` in den Projekt-Ordner und mache `npm install` zum Herunterladen der Dependecies.
+
+- artillery brauchen wir auch noch 😉🦏
+
+```shell
+npm install -g artillery@latest
+```
 - Führe den Command unten aus, um den Server zu starten:
 
 ```shell
 npm run dev
 ```
+hier solltest du nun sein: 🦕
 
-- Adresse: http://localhost:6968
+- Adresse: http://localhost:3000
+
+- dann los...
+
+```shell
+npm run start
+```
+
+jetzt wirds wild:
+![giphy](https://github.com/user-attachments/assets/53f3fbe0-3c05-47ca-9d59-c97c6f490d87)
+
+```shell
+artillery run artillery.yml
+```
+
+Ergebnisse / Summary sammeln
+
+-erstelle eine eigene Ergebnisse.txt und kopiere deine Summary hinein
 
 
 Bei Fragen:
