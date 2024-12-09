@@ -23,6 +23,7 @@ npm run dev
 
 - Adresse: http://localhost:6968
 
+![giphy](https://github.com/user-attachments/assets/53f3fbe0-3c05-47ca-9d59-c97c6f490d87)
 
 Bei Fragen:
 
