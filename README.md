@@ -22,6 +22,35 @@ npm i
 npm install -g artillery@latest
 ```
 
+Installiere redis (macOS): 
+
+```shell
+brew --version
+```
+dann: 
+
+```shell
+brew install redis
+```
+
+dann: 
+
+```shell
+sudo launchctl start redis
+```
+
+redis installieren: 
+
+```shell
+npm install redis
+```
+
+Zum Überprüfen der Installation führe redis-cli aus und schreibe ping -> Ausgabe sollte pong sein
+
+```shell
+redis-cli 
+```
+
 - Führe den Command unten aus, um den Server zu starten:
 
 ```shell
